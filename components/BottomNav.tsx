@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function BottomNav({current}:{current:"home"|"plan"|"records"|"books"}){return <nav className="bottom-nav"><Link className={current==="home"?"active":""} href="/"><span>⌂</span><small>ホーム</small></Link><Link className={current==="plan"?"active":""} href="/tasks"><span>✓</span><small>計画</small></Link><Link className={current==="records"?"active":""} href="/records"><span>▦</span><small>記録</small></Link><Link className={current==="books"?"active":""} href="/books"><span>▤</span><small>本</small></Link></nav>}

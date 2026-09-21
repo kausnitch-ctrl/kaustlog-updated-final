@@ -1,0 +1,135 @@
+{
+  "id": "physics-2021-jumon",
+  "name": "2021物理重要問題集",
+  "subject": "物理",
+  "cover": "/books/physics-2021-jumon.jpg",
+
+  "units": [
+    {
+      "id": "unit-01",
+      "name": "1 等加速度運動",
+      "startProblem": 1,
+      "endProblem": 8
+    },
+    {
+      "id": "unit-02",
+      "name": "2 力とつりあい",
+      "startProblem": 9,
+      "endProblem": 18
+    },
+    {
+      "id": "unit-03",
+      "name": "3 運動の法則",
+      "startProblem": 19,
+      "endProblem": 27
+    },
+    {
+      "id": "unit-04",
+      "name": "4 抵抗力を受ける運動",
+      "startProblem": 28,
+      "endProblem": 34
+    },
+    {
+      "id": "unit-05",
+      "name": "5 運動量の保存",
+      "startProblem": 35,
+      "endProblem": 43
+    },
+    {
+      "id": "unit-06",
+      "name": "6 円運動・万有引力",
+      "startProblem": 44,
+      "endProblem": 51
+    },
+    {
+      "id": "unit-07",
+      "name": "7 単振動・単振り子",
+      "startProblem": 52,
+      "endProblem": 59
+    },
+    {
+      "id": "unit-08",
+      "name": "8 温度と熱量",
+      "startProblem": 60,
+      "endProblem": 62
+    },
+    {
+      "id": "unit-09",
+      "name": "9 気体分子の運動と状態変化",
+      "startProblem": 63,
+      "endProblem": 73
+    },
+    {
+      "id": "unit-10",
+      "name": "10 波の性質",
+      "startProblem": 74,
+      "endProblem": 78
+    },
+    {
+      "id": "unit-11",
+      "name": "11 音波",
+      "startProblem": 79,
+      "endProblem": 84
+    },
+    {
+      "id": "unit-12",
+      "name": "12 光波",
+      "startProblem": 85,
+      "endProblem": 95
+    },
+    {
+      "id": "unit-13",
+      "name": "13 静電気力と電場",
+      "startProblem": 96,
+      "endProblem": 103
+    },
+    {
+      "id": "unit-14",
+      "name": "14 コンデンサー",
+      "startProblem": 104,
+      "endProblem": 110
+    },
+    {
+      "id": "unit-15",
+      "name": "15 直流回路",
+      "startProblem": 111,
+      "endProblem": 120
+    },
+    {
+      "id": "unit-16",
+      "name": "16 電流と磁場",
+      "startProblem": 121,
+      "endProblem": 125
+    },
+    {
+      "id": "unit-17",
+      "name": "17 電磁誘導",
+      "startProblem": 126,
+      "endProblem": 135
+    },
+    {
+      "id": "unit-18",
+      "name": "18 交流回路",
+      "startProblem": 136,
+      "endProblem": 140
+    },
+    {
+      "id": "unit-19",
+      "name": "19 電子と光",
+      "startProblem": 141,
+      "endProblem": 146
+    },
+    {
+      "id": "unit-20",
+      "name": "20 原子と原子核",
+      "startProblem": 147,
+      "endProblem": 151
+    },
+    {
+      "id": "unit-21",
+      "name": "21 考察問題 ～思考力・判断力・表現力",
+      "startProblem": 152,
+      "endProblem": 156
+    }
+  ]
+}
