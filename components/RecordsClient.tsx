@@ -7,6 +7,7 @@ import { dateKeyFromTimestamp, formatDate } from "../lib/date";
 import { accuracy, distinctProblemCount, seconds, latestByProblem } from "../lib/stats";
 import type { Attempt, SubjectMistake } from "../types/database";
 import BottomNav from "./BottomNav";
+import CumulativeStudyTimeChart from "./CumulativeStudyTimeChart";
 
 type Props = { books: { id: string; subject: string }[] };
 
@@ -133,6 +134,7 @@ export default function RecordsClient({ books }: Props) {
           </div>
         </section>
 
+                <CumulativeStudyTimeChart />
         <section className="record-card">
           <div className="card-title"><h2>日別記録</h2><span>最新20日</span></div>
           {daily.slice(-20).reverse().map(([d, v]) => <div className="daily-record-item" key={d}><span>{formatDate(d)}</span><strong>{v.count}回　{Math.floor(v.sec / 60)}分</strong></div>)}
